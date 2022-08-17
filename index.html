@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind-nike-Wbsite</title>
+    <!-- lined add tailwind  -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        nike: '#FA804C',
+                        ran: '#363958',
+                        button: '#3D4FF3',
+                        start: '#FFF9F4',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- header start  -->
+    <header class="container mx-auto bg-start">
+       <!-- naibar start  -->
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="/icons/Logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+               
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 ">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-black md:p-0 "
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About us</a>
+                    </li>
+                    <li>
+                    <a href="#"
+                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Product
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contuct Us 
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+        <!-- navbar End  -->
+    </nav>
+    <!-- penguin Fasion start  -->
+    <section class="container mx-auto bg-start">
+        <div class="sm:flex items-center justify-between">
+            <div class="pt-9 sm:pt-0">
+                <img class="md:w-2/3" src="./images/Group 33092.png" alt="">
+            </div>
+            <div class="space-y-4 p-4">
+                <span class="text-5xl font-semibold text-nike">Nike React</span> <br>
+                <span class="text-5xl font-semibold text-ran">Infinity Run 2</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="btn bg-button
+                py-5 px-10 text-white font-semibold inline rounded-lg">
+                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                  BUY NOW
+                </button>
+            </div>
+        </div>
+        <!-- penguin Fasion End  -->
+    </section>
+    </header>
+    <!-- header end  
+    --------------------------------------------------------------------->
+        <main class="container mx-auto bg-start">
+            <!-- start main  -->
+            <section class="pt-24">
+                <!-- Casual shoes  -->
+                <h2 class="text-4xl font-semibold">SASUAL SHOES</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- shoes 1  -->
+                    <div class="p-4 shadow-lg rounded-xl">
+                        <div class="p-2 bg-slate-100 rounded-lg">
+                            <img src="./images/image 5.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl text-bold">Nike Shoe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem.</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-4xl font-bold text-nike">$234</h1>
+                                <button class="btn bg-button
+                                      py-5 px-10 text-white font-semibold inline rounded-lg">
+                                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shoes 2 -->
+                    <div class="p-4 shadow-lg rounded-xl">
+                        <div class="p-2 bg-slate-100 rounded-lg">
+                            <img src="./images/pngegg 1.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl text-bold">Nike Shoe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem.</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-4xl font-bold text-nike">$234</h1>
+                                <button class="btn bg-button
+                                      py-5 px-10 text-white font-semibold inline rounded-lg">
+                                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shoes 3 -->
+                    <div class="p-4 shadow-lg round-xl">
+                        <div class="p-2 bg-slate-100 rounded-lg">
+                            <img src="./images/image 5.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl text-bold">Nike Shoe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem.</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-4xl font-bold text-nike">$234</h1>
+                                <button class="btn bg-button
+                                      py-5 px-10 text-white font-semibold inline rounded-lg">
+                                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Formal Shoes  -->
+            <section class="pt-24">
+                <h2 class="text-4xl font-semibold">Formal shoes</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- shoes 1  -->
+                    <div class="p-4 shadow-lg rounded-xl">
+                        <div class="p-2 bg-slate-100 rounded-lg">
+                            <img src="./images/Rectangle 38.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl text-bold">Nike Shoe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem.</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-4xl font-bold text-nike">$234</h1>
+                                <button class="btn bg-button
+                                                  py-5 px-10 text-white font-semibold inline rounded-lg">
+                                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shoes 2 -->
+                    <div class="p-4 shadow-lg rounded-xl">
+                        <div class="p-2 bg-slate-100 rounded-lg">
+                            <img src="./images/Rectangle 39.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl text-bold">Nike Shoe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem.</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-4xl font-bold text-nike">$234</h1>
+                                <button class="btn bg-button
+                                                  py-5 px-10 text-white font-semibold inline rounded-lg">
+                                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shoes 3 -->
+                    <div class="p-4 shadow-lg round-xl">
+                        <div class="p-2 bg-slate-100 rounded-lg">
+                            <img src="./images/Mask Group.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-3xl text-bold">Nike Shoe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, exercitationem.</p>
+                            <div class="flex justify-between">
+                                <h1 class="text-4xl font-bold text-nike">$234</h1>
+                                <button class="btn bg-button
+                                                  py-5 px-10 text-white font-semibold inline rounded-lg">
+                                    <img class="w-5 h-5 inline" src="./icons/shopping-cart 1.png" alt="">
+                                    BUY NOW
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Formal SHoes  -->
+            </section>
+            <section class="">
+                <!-- your Banifits  -->
+                <div class="grid grid-cols-2 pt-24 gap-7">
+                    <div class="flex bg-white gap-3 rounded-lg p-6">
+                        <img class="h-20 w-20" src="./icons/image 12.png" alt="">
+                       <div>
+                        <h3 class="text-3xl">Find the Perfect Fit</h3>
+                        <p>Everybody is different, which is why we offer styles for every body.</p>
+                       </div>
+                    </div>
+                    <div class="row-span-3">
+                        <img src="./icons/XMLID 1.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex bg-white gap-3 rounded-lg p-6">
+                            <img class="h-20 w-20" src="./icons/image 13.png" alt="">
+                            <div>
+                                <h3 class="text-3xl">Free Exchanges</h3>
+                                <p>Everybody is different, which is why we offer styles for every body.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex bg-white gap-3 rounded-lg p-6">
+                            <img class="h-20 w-20" src="./icons/image 14.png" alt="">
+                            <div>
+                                <h3 class="text-3xl">Free Exchanges</h3>
+                                <p>Everybody is different, which is why we offer styles for every body.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+</body>
+</html>
